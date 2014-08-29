@@ -1,8 +1,8 @@
 ---------------
--- Author:  Disinterpreter
--- License: MIT License
+-- Author:      Disinterpreter
+-- License:     MIT License
 -- Copyright:   (c) 2014
--- Script:  MTADM
+-- Script:      MTADM
 ---------------
 
 function RPCAccountDataLogIn( sLogin, sPasswd )
@@ -49,7 +49,7 @@ function RPCAccountDataReg( sLogin, sPasswd )
 		return 1;
 	end
 	Account.add( sLogin, sPasswd )
-	outputChatBox( "You account has registered", client )
+	outputChatBox( "You account has registered. Press LogIn", client )
 end
 addEvent( "onSendAccountDataReg", true )
 addEventHandler( "onSendAccountDataReg", root, RPCAccountDataReg )

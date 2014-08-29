@@ -1,8 +1,8 @@
 ---------------
--- Author:  Disinterpreter
--- License: MIT License
+-- Author:      Disinterpreter
+-- License:     MIT License
 -- Copyright:   (c) 2014
--- Script:  MTADM
+-- Script:      MTADM
 ---------------
 
 Panel = {
@@ -43,7 +43,7 @@ addEventHandler( "onClientGUIClick", Panel.button[2],
 
 function RPCRecvAccountFinish()
     showCursor( false )
-    Panel.window[1]:setVisible(false)
+    Panel.window[1]:setVisible( false )
 end
 addEvent( "onRecvdAccountFinish", true )
 addEventHandler( "onRecvdAccountFinish", root, RPCRecvAccountFinish )

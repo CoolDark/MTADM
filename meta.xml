@@ -1,8 +1,12 @@
 <meta>
 	<info author="Disinterpreter" type="gamemode" name="mtadm" />
 	<oop>true</oop>
+	<script src="conf.lua" type="server" />
 	<script src="/tools/debug.lua" type="client" />
 	<script src="/tools/debug.lua" type="server" />
+	<script src="core_cl.lua" type="client" />
+	<script src="core_s.lua" type="server" />	
 	<script src="/loginpanel/login_s.lua" type="server" />
 	<script src="/loginpanel/login_cl.lua" type="client" />
+	<script src="/save/save_s.lua" type="server" />
 </meta>
